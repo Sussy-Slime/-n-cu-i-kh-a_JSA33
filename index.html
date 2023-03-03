@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+       integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+       crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="app">
+    <div class="header">
+      <ul class="header__nav">
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-item--link">SIGN IN</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-item--link">HOME</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-item--link">ABOUT US</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-item--link">POKEMON</a>
+        </li>
+      </ul>
+      <div class="header__email">
+        <h1 id="Email"></h1>
+      </div>
+    </div>
+
+    <main class="form-signin">
+        <form>
+          <img class="logo" src="https://th.bing.com/th/id/OIP.R9tpjeR7P_mrjRr3K1IpHgHaHa?pid=ImgDet&rs=1" 
+          alt="" 
+          width="50%" 
+          height="50%">
+          <h1 class="note">Please sign in</h1>
+      
+          <div class="form-floating">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email address" value="">
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password" value="">
+          </div>
+      
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div class="but">
+          <button class="signIn" type="submit">Sign in</button>
+        </form>
+      </main>
+
+      <div class="home">
+        <img 
+        src="https://images3.alphacoders.com/677/677583.png" 
+        width="60%">
+      </div>
+      <div class="information">
+        <h2 class="title">ABOUT US</h2>
+        <p>
+          Hi, my name is Quang Hào, and also the creator of this website.
+        </p>
+        <p>
+          I have spent a lot of time working on this website (maybe 5 weeks) and in the process 
+          of working I also encountered a lot of difficulties. For the first week, everything went 
+          very smoothly, nothing went wrong. But from the second and third week, I was sick and that 
+          slowed down my work schedule. From the 4th week, I was cured and felt better, but because of 
+          the delay, I had to push the urgent work schedule from 1 week to 3 weeks (I was really tired). 
+          But luckily, I was able to finish it by week five with the same presentation as when I was in school.
+        </p>
+        <img 
+        src="https://i.pinimg.com/564x/9f/63/9e/9f639e36c0e32d5980fe2946a6388210.jpg" 
+        width="30%">
+      </div>
+
+      <div class="POKEMON">
+        <h1>Pokemon Example</h1>
+        <div id="pokemon-container"></div>
+      </div>
+      
+      <script src="app.js"></script>
+</body>
+</html>
